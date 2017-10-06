@@ -1,140 +1,129 @@
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #f1fec6;
 }
+
 h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: lighter;
-  font-size: 60px;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #8F2425;
-}
-
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
-  color: white;
-}
-
-#banner{
-  text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
-  background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
-  color: white;
-
-}
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
-
-#banner h1 {
-  color: white;
+  font-family: 'Raleway', sans-serif;
+  color: #5da9e9 ;
+  font-weight: bold;
   font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
 }
-#banner p {
-  color: rgb(230,23);
-  opacity: 0.8;
-  font-size: 25px;
+h2 {
+  color: #493657;
   font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
+  font-size: 25px;
 }
+
+#banner {
+  text-align: center;
+  background-image: url(images/bg1.jpeg);
+  background-size: cover;
+  margin:auto;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+#banner p {
+  font-family: 'Montserrat', sans-serif;
+  color : #d7af70;
+  text-shadow: none;
+  font-size : 18px;
+  margin: 50px;
+}
+
+.card {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 150px;
+  font-weight: lighter;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 7px;
+
+}
+
+.card p {
+  font-family: 'Montserrat', sans-serif;
+  color: #251351;
+}
+
+.card1 {
+  background-color: #f9564f;
+  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 122px;
+}
+
+.card2 {
+  background-color: #4ecdc4;
+  padding: 50px;
+  padding-top: 80px;
+  padding-left: 45px;
+  padding-bottom: 122px;
+}
+
+.card3 {
+  background-color: #ffcbdd;
+  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.card4 {
+  background-color: #0cce6b;
+  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
 #footer{
   padding: 30px;
   background: rgb(30, 30, 30);
+  background-size: cover;
   color: lightgrey;
-}
-.card{
-  padding: 70px 30px;
-  font-weight: lighter;
+  font-size: 13px;
   text-align: center;
 }
 
-.icon-size {
-  font-size: 50px;
-}
-
-.form-margin {
-  margin-top: 20px;
-}
-
-.btn-red {
-  color: white;
-  background-color: #D23333;
-}
-
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
-}
-
-.cta {
-  background-color: rgb(220,220,220);
-  padding: 50px;
-}
-
 #footer a {
-  font-size: 30px;
+  color:white;
+  font-size: 20px;
 }
 
 #footer a:hover {
-  color: #D23333;
+  color: lightgrey;
 }
 
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
+.fa-youtube {
+  color:#E90000;
 }
 
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
+.fa-facebook {
+  color:#2b59c3;
 }
 
-
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
+.fa-twitter {
+  color:#18a999;
 }
 
-.card-list-text p {
-font-weight: lighter
+.download_btn {
+  background-color: #35a7ff;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Ubuntu;
+    transition-duration: 0.4s;
 }
 
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
+.download_btn:hover {
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color:#f9564f;
+   color:white;
 }
 
-.card-list-img {
-  flex: 0 1 auto;
-}
